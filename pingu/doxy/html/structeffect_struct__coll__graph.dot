@@ -1,0 +1,11 @@
+digraph "effectStruct"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{effectStruct\n|+ effects_created\l+ bossPuffToShow\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="effect struct a struct with the information about the effects effects -> array with the object of the..."];
+  Node2 -> Node1 [color="grey25",fontsize="10",style="solid",label=" +bossPuff\n+effects" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node2 [label="{game_object\n|+ pos_x\l+ pos_y\l+ speed_x\l+ speed_y\l+ img\l+ map\l+ has_collider\l+ collider_x\l+ collider_y\l+ collider_width\l+ collider_height\l+ has_animation\l+ animation_no\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structgame__object.html",tooltip="game object pos_x -> x position of the object pos_y -> y position of the object speed_x -> speed of t..."];
+  Node3 -> Node2 [color="grey25",fontsize="10",style="solid",label=" +animations" ,arrowhead="odiamond",fontname="Helvetica"];
+  Node3 [label="{animation_object\n|+ maps\l+ imgs\l+ no_images\l+ animation_speed\l+ previous_frame\l+ frame_interval_counter\l|}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structanimation__object.html",tooltip="animation object maps -> arrays with the sprites imgs -> xpm_image_t with the information about the s..."];
+}

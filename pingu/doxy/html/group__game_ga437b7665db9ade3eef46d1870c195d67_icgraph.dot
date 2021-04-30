@@ -1,0 +1,12 @@
+digraph "game_has_colided_obj"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="game_has_colided_obj",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="checks if two objects colided if the collider is a rectangle"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="game_display_game_over",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga204337be139d5758c716bb8a8c2fa6cc",tooltip="displays the game over layout"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="game_display_menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga5e33166ad3db741239c9a6ce0a2b93c4",tooltip="displays the menu"];
+}

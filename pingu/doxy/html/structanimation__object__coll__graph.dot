@@ -1,0 +1,7 @@
+digraph "animation_object"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{animation_object\n|+ maps\l+ imgs\l+ no_images\l+ animation_speed\l+ previous_frame\l+ frame_interval_counter\l|}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="animation object maps -> arrays with the sprites imgs -> xpm_image_t with the information about the s..."];
+}

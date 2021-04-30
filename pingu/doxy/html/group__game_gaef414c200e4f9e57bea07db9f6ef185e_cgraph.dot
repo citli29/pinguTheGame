@@ -1,0 +1,10 @@
+digraph "game_check_if_in_bounds"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="game_check_if_in_bounds",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="checks if a game object is in bounds according to the background collider"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="game_has_colided",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga319b2f312a03366052ce43253ed754cd",tooltip="checks if two rectangles collided"];
+}
